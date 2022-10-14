@@ -1,0 +1,226 @@
+body{
+  /* background-color: rgb(246, 236, 207); */
+  /* background-size: cover; */
+  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  /* position: absolute; */
+  
+}
+.containerr {
+  height: auto;
+  width: auto;
+  position: relative;
+}
+.containerr > .content {
+  margin: 0 10%;
+}
+.main{
+  background-color: black;
+}
+.vidio{
+  height: 400%;
+  opacity: 70%;
+  width: 330%;
+  position: fixed;
+  margin-top: -20%;
+  opacity: 50%;
+  margin-left: auto;
+  overflow: hidden;
+}
+.content {
+  text-align: center;
+  /* position: absolute; */
+  /* z-index: 3; */
+}
+.content > h3 {
+
+}
+@font-face {
+  font-family: ananda;
+  src: url("../font/Ananda\ Black\ Personal\ Use.ttf");
+}
+@font-face {
+  font-family: callego;
+  src: url('../font/qallego/QallegoFont.ttf');
+}
+@media (max-width:720px) {
+  .content > h1 {
+  margin-top: 20%;
+  margin-bottom: 15%;
+  font-family: ananda;
+  font-size: 10px;
+  color: rgb(241, 188, 91);
+  text-shadow: 0 3px rgb(0, 0, 0);
+}
+
+}
+.content > h2,h3{
+  color: aqua;
+  font-family: callego;
+  /* text-decoration: underline; */
+}
+.content > p {
+  color: white;
+  text-align: justify;
+  margin-bottom: 10%;
+  font-size:20px;
+}
+.content > h2{
+  margin-top:20%;
+  font-size:500%;
+  margin-bottom: 5%;
+}
+.content > h3 {
+  font-size: 200%;
+}
+.img1 {
+  position: fixed;
+  width: 100%;
+  margin-top: -30%;
+  overflow: hidden;
+  width:  100%;
+}
+/* .tmp_garis { */
+  /* position: relative; */
+  /* margin-top: 15%; */
+/* } */
+/* .garis2 { */
+  /* height: 80px; */
+  /* border-radius: 50%; */
+  /* width: 85%; */
+  /* padding-left: 25%; */
+  /* padding-top: 70px; */
+  /* background-color: transparent; */
+/* } */
+/* .garis { */
+  /* position: absolute; */
+  /* padding-top: 50px; */
+  /* height: 80px; */
+  /* border-radius: 40%; */
+  /* width: 150%; */
+  /* margin-left: -25%; */
+  /* background-image: linear-gradient(white, rgb(241, 188, 91)); */
+  /* box-shadow: ; */
+/* } */
+.kegiatan {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1%;
+}
+.azzahir {
+  width: 30%;
+  height: 20%;
+}
+.alquran {
+  width: 30%;
+  height: 19%;
+}
+.text > * {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text1 > * {
+  font-size: 200%;
+}
+.text1 > h5:first-child {
+  margin-right: 2%;
+}
+.text1 > h5:last-child {
+  margin-left: 2%;
+}
+.text2 > * {
+  width: 50%;
+  text-align: justify;
+  margin: 3%;
+}
+.tumbnail {
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.vidioazzahir {
+  width: 580px;
+  height: 320px;
+}
+.vidioberzanji {
+  width: 580px;
+  height: 320px;
+}
+.link > * {
+  margin-bottom: 0px;
+}
+.link > p {
+  font-weight: bold;
+}
+.link2 {
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+}
+.canvas {
+  margin-top: -9%;
+  height: auto;
+  width: 100%;
+  border-bottom-right-radius: 2%;
+  border-bottom-left-radius: 2%;
+  /* background-color: rgb(241, 188, 91); */
+  background:transparent;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.canvas > div{
+  margin-top: 20%;
+}
+.canvas > div > div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+.canvas > div > div > div > a > svg {
+  width: 50px;
+  height: 25px;
+}
+/* .canvas2 { */
+  /* display: inline; */
+  /* height: 90px; */
+  /* width: 100%; */
+  /* background-color: rgb(247, 204, 125); */
+  /* margin-bottom: -50%; */
+  /* margin-top: 5%; */
+/* } */
+@media (max-width: 720px) {
+  .canvas > div > div > a > svg {
+    width: 50px;
+    height: 40px;
+  }
+}
+.iframe {
+  margin-top: 2%;
+  margin-bottom: 9%;
+}
+.div-iframe{
+  display: flex;
+  justify-content: center;
+
+}
+@font-face {
+  font-family: aquarium;
+  src: url("../font/aquarium/AQUARIUM.TTF");
+}
+
+/* css nama malka */
+.nama {
+  font-family: aquarium;
+  font-size: 200%;
+  text-align: center;
+  margin-top: 1%;
+  color: rgb(239, 239, 239);
+}
+.div-footer {
+  text-align: center;
+  line-height: 3%;
+  font-weight: bold;
+  color: white;
+}
